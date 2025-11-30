@@ -1,0 +1,11 @@
+# Ne pas pousser les exécutables
+*.exe
+
+# Ne pas pousser les fichiers temporaires COBOL
+*.lst
+*.o
+
+# Ne pas pousser certains programmes
+temp_*.cbl
+junk/
+sandbox/
