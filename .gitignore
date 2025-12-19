@@ -1,5 +1,5 @@
 # Ne pas pousser les exécutables
-#*.exe
+*.exe
 
 # Ne pas pousser les fichiers temporaires COBOL
 *.lst
