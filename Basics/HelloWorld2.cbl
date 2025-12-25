@@ -34,7 +34,7 @@
            stop run.
 
        8000-affichage.
-       display "Bonjour tout le monde".
+           display "Bonjour tout le monde".
        
 
       *-----------------------------------------------------------------
