@@ -10,21 +10,21 @@
        
        DATA DIVISION. 
        WORKING-STORAGE SECTION. 
-       01 ws-file-status pic x(2).   
+       01 ws-file-status              pic x(2).   
        01 ws-data.
-           05 ws-montant-pret pic 9(6).
-           05 ws-taux-annuel pic 9.
-           05 ws-duree-annees pic 99.
-           05 ws-taux-mensuel pic 9v9(16).
-           05 ws-nombre-mois pic 9(4).
-           05 ws-mensualite pic 9(7)v99.
-           05 ws-interet-total pic 9(10)v99.
-           05 ws-total-rembourse pic 9(10)v99.
+           05 ws-montant-pret         pic 9(6).
+           05 ws-taux-annuel          pic 9.
+           05 ws-duree-annees         pic 99.
+           05 ws-taux-mensuel         pic 9v9(16).
+           05 ws-nombre-mois          pic 9(4).
+           05 ws-mensualite           pic 9(7)v99.
+           05 ws-interet-total        pic 9(10)v99.
+           05 ws-total-rembourse      pic 9(10)v99.
 
        01 ws-date-ed.
-           05 WS-MENSUALITE-ed pic z(9)9,99.
-           05 WS-INTERET-TOTAL-ed pic z(9)9,99.
-           05 WS-TOTAL-REMBOURSE-ed pic z(9)9,99.
+           05 WS-MENSUALITE-ed        pic z(9)9,99.
+           05 WS-INTERET-TOTAL-ed     pic z(9)9,99.
+           05 WS-TOTAL-REMBOURSE-ed   pic z(9)9,99.
 
 
 
