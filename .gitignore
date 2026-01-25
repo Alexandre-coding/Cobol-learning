@@ -1,12 +1,19 @@
-# Ne pas pousser les exécutables
-*.exe
-bin/
-build/
-# Ne pas pousser les fichiers temporaires COBOL
-*.lst
-*.o
+# --- Generated binaries ---
+Bin/*
+!Bin/README.md
+!Bin/.gitkeep
 
-# Ne pas pousser certains programmes
-temp_*.cbl
-junk/
-sandbox/
+# --- Build logs / spools ---
+Build/*
+!Build/README.md
+!Build/.gitkeep
+
+# --- Program outputs (generated) ---
+Data/seq/*.out
+Data/seq/*.log
+
+# --- Generic ---
+*.exe
+*.tmp
+*.swp
+.DS_Store
